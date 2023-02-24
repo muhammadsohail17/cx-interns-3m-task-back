@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * login router
+ * task router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::login.login');
+module.exports = createCoreRouter('api::task.task');
